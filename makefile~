@@ -1,0 +1,6 @@
+all: forks.o
+	gcc -o forks.o
+forks.o: forks.c
+	gcc -c forks.c
+run: all
+	./a.out
